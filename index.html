@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Razorplay</title>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <div class="container mx-auto px-9 flex items-center justify-between py-4">
+            <!-- Logo -->
+            <a href="/" class="cursor-pointer">
+                <img src="./images/razorpayX.svg" width="145" height="30" alt="Razorplay Logo" />
+            </a>
+
+            <!-- Navigation Menu -->
+            <ul class="flex space-x-6 items-center">
+                <li><a href="#" class="text-white font-sans hover:text-gray-300 transition-all duration-200">Payments</a></li>
+                <li><a href="https://razorpay.com/docs/payments/payment-methods/netbanking/" class="text-white font-sans hover:text-gray-300 transition-all duration-200" target="_blank">Banking</a></li>
+                <li><a href="#" class="text-white font-sans hover:text-gray-300 transition-all duration-200">Payroll</a></li>
+                <li><a href="#" class="text-white font-sans hover:text-gray-300 transition-all duration-200">Corporate Card</a></li>
+                <li><a href="https://razorpay.com/support/" class="text-white font-sans hover:text-gray-300 transition-all duration-200" target="_blank">Support</a></li>
+            </ul>
+
+            <!-- Right Side Buttons -->
+            <div class="flex space-x-6 items-center">
+                <img src="./images/in.svg" width="28px" height="28px" />
+                <button class="py-2 px-5 text-white border border-white rounded-md hover:bg-white hover:text-indigo-600 transition-all duration-200 font-bold">Log in</button>
+                <button class="py-3 px-4 font-sans rounded-md font-bold bg-white text-indigo-600 hover:bg-gray-300 transition-all duration-200">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-[#02042a] py-20 hero-bg">
+        <div class="w-10/12 max-w-[1080px] flex flex-col md:flex-row justify-between items-center mx-auto">
+            <!-- Left Part -->
+            <div class="space-y-8 text-center md:text-left">
+                <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">Power Your Finance, Grow Your Business</h1>
+                <div class="w-6 h-1 bg-[#61cea6] mx-auto md:mx-0"></div>
+                <p class="font-mullish text-[18px] leading-7 text-white opacity-70">Accept payments, automate payouts, and manage your finances seamlessly.</p>
+                <button class="py-3 px-6 text-white bg-indigo-600 rounded-md hover:bg-indigo-800 transition-all duration-200 font-bold">Sign Up Now</button>
+            </div>
+            <!-- Right Part -->
+            <img src="./images/home.jpg" alt="Hero Image" class="w-full max-w-[500px]">
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-[1080px] mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-800">Why Choose Razorplay?</h2>
+            <p class="text-gray-600 mt-4">Top-notch financial solutions for seamless business transactions.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                <!-- Feature 1 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-all">
+                    <img src="./images/secure-payment.jpg" alt="Security" class="w-16 mx-auto">
+                    <h3 class="text-xl font-semibold mt-4">Secure Payments</h3>
+                    <p class="text-gray-600 mt-2">End-to-end encrypted transactions with fraud detection.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-all">
+                    <img src="./images/seamless.jpg" alt="Integration" class="w-16 mx-auto">
+                    <h3 class="text-xl font-semibold mt-4">Seamless Integrations</h3>
+                    <p class="text-gray-600 mt-2">Works with major platforms and APIs.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="p-6 bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-all">
+                    <img src="./images/OIP.jpg" alt="Analytics" class="w-16 mx-auto">
+                    <h3 class="text-xl font-semibold mt-4">Advanced Analytics</h3>
+                    <p class="text-gray-600 mt-2">Get insights and track your revenue growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-[1080px] mx-auto flex flex-col md:flex-row justify-between footer-columns">
+            <!-- Company Info -->
+            <div>
+                <h3 class="text-xl font-bold">Razorplay</h3>
+                <p class="text-gray-400 mt-2">Empowering businesses with secure financial solutions.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4 class="text-lg font-semibold">Quick Links</h4>
+                <ul class="mt-2 space-y-1">
+                    <li><a href="https://razorpay.com/payment-links/" class="hover:text-gray-300" target="_blank">Payments</a></li>
+                    <li><a href="https://razorpay.com/docs/payments/payment-methods/netbanking/" class="hover:text-gray-300" target="_blank">Banking</a></li>
+                    <li><a href="https://razorpay.com/support/" class="hover:text-gray-300" target="_blank">Support</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div>
+                <h4 class="text-lg font-semibold">Follow Us</h4>
+                <div class="flex space-x-4 mt-2">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.svg" alt="Facebook" class="w-6"></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="./images/linkedin-icon.svg" alt="LinkedIn" class="w-6"></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="./images/twitter-icon.svg" alt="Twitter" class="w-6"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
